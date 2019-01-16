@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "pemilu.com.pemiluosisversion1_0"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.01"
+        multiDexEnabled true
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions{
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    //compile 'com.facebook.fresco:fresco:0.7.0'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.android.support:design:25.0.1'
+    testCompile 'junit:junit:4.12'
+
+    compile 'it.sephiroth.android.library.targettooltip:target-tooltip-library:+'
+    //noinspection GradleCompatible
+    compile 'com.android.support:support-v4:21.0.+'
+}

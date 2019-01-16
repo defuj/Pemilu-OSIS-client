@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">NEW ELECTION</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">SELANJUTNYA</string>
+    <string name="skip">SKIP</string>
+    <string name="start">MASUK</string>
+
+    <string name="slide_1_title">SMK Informatika Sumedang</string>
+    <string name="slide_1_desc">VISI \n
+Pada tahun 2015 menjadi sekolah pusat pendidikan dan latihan dan menciptakan Sumber Daya Manusia Professional, Beriman dan Bertaqwa terhadap Tuhan Yang Maha Esa di wilayah periangan.\n
+\nMISI\n
+Melatih siswa agar menjadi tenaga kerja yang Professional, Wirausahawan yang Tangguh, Berbudi Luhur, Beriman dan Bertaqwa kepada Tuhan Yang Maha Esa.\n
+</string>
+
+    <string name="slide_2_title">Majelis Perwakilan Kelas</string>
+    <string name="slide_2_desc">VISI \n
+Mewujudkan Organisasi panutan yang berlandaskan Jujur, Kreatif, Inovatif, Disiplin dan Bertanggung Jawab.
+
+\n\nMISI \n
+Berusaha merealisasikan Aspirasi Siswa SMK Informatika Sumedang.\n
+Meningkatkan kerjasama MPK, OSIS dan pihak Sekolah. \n
+Meningkatkan Kualitas Ekstrakulikuler yang ada di SMK Informatika Sumedang.\n
+Memberikan kontribusi untuk meningkatkan Kualitas Sekolah dengan terus melakukan terobosan terbaru. \n
+Menjalankan tugas utama dengan semaksimal mungkin dan bila di perlukan akan langsung turun langsung ke lapangan.
+</string>
+    <string name="slide_3_title">Organisasi Siswa Intra Sekolah</string>
+    <string name="slide_3_desc">
+    </string>
+
+    <string name="slide_4_title">Pemilihan Ketua OSIS</string>
+    <string name="slide_4_desc">
+        \t\tUntuk melahirkan seorang pemimpin yang berdedikasi tinggi, mengerti dan cepat tanggap terhadap setiap permasalahan yang timbul tidaklah mudah, karena mereka tidak hanya dituntut memiliki kecerdasan dan kecakapan, tetapi juga harus memiliki jiwa kepemimpinan, rasa tanggung jawab yang besar, dapat menjadi panutan dan mengayomi terhadap masyarakat yang dipimpinnya.\n
+	\t\tDemikian juga dengan Pengurus OSIS SMK Informatika Sumedang yang pada bulan ini akan habis masa jabatannya dan harus diganti dengan  kepengurusan yang baru. Untuk menghasilkan pemimpin yang sesuai dengan harapan kami, maka digunakanlah suatu mekanisme pemilihan pemimpin yang demokratis dan legitimit sehingga dapat diterima oleh semua anggotanya. Dengan momentum ini diharapkan akan lahir kader-kader pengurus OSIS yang berpotensi dan mampu membawa OSIS SMK Informatika Sumedang kearah yang lebih Baik, Kreatif, Inofatif dan penuh dengan kegiatan-kegiatan yang bermanfaat bagi anggotanya.\n\n
+
+TUJUAN\n
+
+      		Tujuan Kegiatan Pemilihan Umum Ketua dan Wakil Ketua OSIS, yaitu :
+\nMelatih Siswa Untuk Berorganisasi.
+\nMenyalurkan Minat Siswa Untuk Berorganisasi.
+\nMeningkatkan Kreativitas Pengurus OSIS.
+\nKaderesasi Personil Pengurus OSIS.
+\nMeningkatkan Rasa Persatuan dan Kesatuan.
+
+    </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

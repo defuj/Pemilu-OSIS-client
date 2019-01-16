@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="bottom|center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="center">
+
+                <ImageView
+                    app:srcCompat="@drawable/ikon2"
+                    android:id="@+id/imageView_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="Apakah anda yakin ?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_dialog"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/back_dialog"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:tint="@android:color/white"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:text="Ragu-Ragu"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/yes_dialog"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:scaleType="fitCenter"
+                android:tint="@android:color/white"
+                android:padding="10dp"
+                android:text="Sangat Yakin"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

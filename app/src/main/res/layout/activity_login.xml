@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="pemilu.com.pemiluosisversion1_0.Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/screen_background_light_transparent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView6"
+            android:padding="50dp"
+            android:background="@color/bg1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ikon3"
+                android:id="@+id/imageView5"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:paddingLeft="75dp"
+                android:paddingRight="75dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/luar_hijau"
+                    android:layout_weight="0.2">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:focusableInTouchMode="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ic_email_black_24dp"
+                            android:id="@+id/imageView3"
+                            android:layout_weight="0.8"
+                            android:scaleType="center"
+                            android:padding="10dp"
+                            android:backgroundTint="#fff"
+                            android:tint="#fff" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ems="10"
+                            android:id="@+id/editTextSurel"
+                            android:layout_weight="0.2"
+                            android:paddingLeft="3dp"
+                            android:hint="Co: contoh@contoh.com"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:inputType="textEmailAddress"
+                            android:focusableInTouchMode="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:focusableInTouchMode="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ic_fiber_pin_black_24dp"
+                            android:id="@+id/imageView2"
+                            android:layout_weight="0.8"
+                            android:scaleType="center"
+                            android:padding="10dp"
+                            android:tint="#fff" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="numberPassword"
+                            android:ems="10"
+                            android:focusableInTouchMode="true"
+                            android:id="@+id/editTextPin"
+                            android:layout_weight="0.2"
+                            android:paddingLeft="3dp"
+                            android:hint="Co: 1234 (4-digit)"
+                            android:maxLength="4"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3">
+
+                        <Button
+                            android:text="MASUK"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/buttonLogin"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/colorPrimary"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:padding="3dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/support"
+                    android:id="@+id/imageView4"
+                    android:padding="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

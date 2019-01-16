@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31b44c</color>
+    <color name="colorPrimaryDark">#006c69</color>
+    <color name="colorAccent">#31b44c</color>
+
+    <color name="colorBackground">#06b395</color>
+
+    <color name="warna1">#2A3540</color>
+    <color name="warna2">#12945E</color>
+    <color name="warna3">#8A9197</color>
+
+    <color name="btn1">#005e3c</color>
+    <color name="btn2">#148556</color>
+
+    <color name="bg1">#eeeeef</color>
+    <color name="bg2">#dcdddd</color>
+
+    <color name="utama">#12945E</color>
+    <color name="line">#065233</color>
+
+    <color name="light">#2ab37b</color>
+    <color name="dark">#065233</color>
+
+    <color name="osis">#69300d</color>
+    <color name="mpk">#218010</color>
+    <color name="ifsu">#fdd832</color>
+    <color name="lets">#2ab37b</color>
+
+
+    <color name="putih">#fff</color>
+
+    <!--baru-->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#00A06e</color>
+    <color name="bg_screen2">#00A06e</color>
+    <color name="bg_screen3">#00A06e</color>
+    <color name="bg_screen4">#00A06e</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#005e3c</color>
+    <color name="dot_dark_screen2">#005e3c</color>
+    <color name="dot_dark_screen3">#005e3c</color>
+    <color name="dot_dark_screen4">#005e3c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#007c52</color>
+    <color name="dot_light_screen2">#007c52</color>
+    <color name="dot_light_screen3">#007c52</color>
+    <color name="dot_light_screen4">#007c52</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen11">#ffffff</color>
+    <color name="dot_dark_screen22">#ffffff</color>
+    <color name="dot_dark_screen33">#ffffff</color>
+    <color name="dot_dark_screen44">#ffffff</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen11">#c8fde9</color>
+    <color name="dot_light_screen22">#c8fde9</color>
+    <color name="dot_light_screen33">#c8fde9</color>
+    <color name="dot_light_screen44">#c8fde9</color>
+
+    <array name="array_dot_active2">
+        <item>@color/dot_light_screen11</item>
+        <item>@color/dot_light_screen22</item>
+        <item>@color/dot_light_screen33</item>
+        <item>@color/dot_light_screen44</item>
+    </array>
+
+    <array name="array_dot_inactive2">
+        <item>@color/dot_dark_screen11</item>
+        <item>@color/dot_dark_screen22</item>
+        <item>@color/dot_dark_screen33</item>
+        <item>@color/dot_dark_screen44</item>
+    </array>
+
+</resources>

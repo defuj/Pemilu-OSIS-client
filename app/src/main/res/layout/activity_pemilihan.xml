@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_pemilihan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pemilu.com.pemiluosisversion1_0.Pemilihan"
+    android:background="@color/bg1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ikon3"
+                android:id="@+id/imageView8"
+                android:padding="10dp"
+                android:tint="@android:color/white" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white"
+                android:layout_alignParentBottom="true"></LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.06">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="@color/bg1"
+                android:visibility="visible">
+            </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+    </LinearLayout>

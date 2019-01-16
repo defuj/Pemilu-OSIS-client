@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:background="@color/putih">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        app:srcCompat="@drawable/ikon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.6"
+                        android:visibility="invisible"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        app:srcCompat="@drawable/ikon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        app:srcCompat="@drawable/ikon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.6"
+                        android:visibility="invisible"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slide_4_title"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/slide_title"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/slide_4_desc"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/slide_desc"
+                            android:lineSpacingExtra="8sp"
+                            android:gravity="center_horizontal"
+                            android:scrollIndicators="none"
+                            android:scrollbarThumbHorizontal="@null"
+                            android:scrollbarThumbVertical="@null" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
